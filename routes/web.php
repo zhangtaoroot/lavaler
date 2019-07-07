@@ -16,11 +16,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Route::get('/aa','Good\GoodController@aa');
-//Route::get('/index','Good\GoodController@index');
-//Route::get('/index','Good\GoodController@index');
-Route::get('/',      'StaticPagesController@home');
-Route::get('/help',  'StaticPagesController@help');
-Route::get('/about', 'StaticPagesController@about');
+// Route::get('/aa','Good\GoodController@aa');
+// Route::get('/index','Good\GoodController@index');
+// Route::get('/index','Good\GoodController@index');
+// Route::get('/',      'StaticPagesController@home');
+// Route::get('/help',  'StaticPagesController@help');
+ //Route::get('/about', 'StaticPagesController@about');
+
+ Route::get('show', 'Blog\ProjectController@show');
 
 
